@@ -1,9 +1,9 @@
 package com.scu.gpuimagedemo;
 
-import android.support.v7.app.AppCompatActivity;
+import android.app.Activity;
 import android.os.Bundle;
 
-public class SaturationActivity extends AppCompatActivity {
+public class SaturationActivity extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
