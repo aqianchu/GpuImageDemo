@@ -17,8 +17,6 @@ import jp.co.cyberagent.android.gpuimage.GPUImage;
 import jp.co.cyberagent.android.gpuimage.GPUImageGrayscaleFilter;
 
 public class NetImageFilterActivity extends AppCompatActivity {
-
-
     private GPUImage gpuImage;
     //显示处理结果
     private ImageView resultIv;
@@ -51,7 +49,6 @@ public class NetImageFilterActivity extends AppCompatActivity {
         //开启异步线程加载图片并处理
         MyAsynTask asynTask = new MyAsynTask();
         asynTask.execute();
-
     }
 
     class MyAsynTask extends AsyncTask<Integer, Integer, Bitmap> {
